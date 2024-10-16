@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    background: url(/bg.jpg) no-repeat center center/cover;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    border: 1px solid transparent;
+    color: white;
+    padding: 40px;
+    border-radius: 19px;
+    backdrop-filter: blur(3.3px);
+    box-shadow: 2px 0px 11px 1.5px rgb(0, 0, 0);
+    width: 23rem;
+}
+
+#date{
+    text-shadow: 4px 3px 5px black;
+    font-size: 32px !important;
+    text-align: center;
+    color: rgb(0 224 249);
+    backdrop-filter:drop-shadow(2px 4px 6px rgb(208, 203, 203));
+    font-weight: bold;
+    font-family: "Concert One", sans-serif;
+}
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+.clock ul li{
+    text-shadow: 4px 3px 5px black;
+    color: rgb(79 203 16);
+   font-family: "Concert One", sans-serif;
+
+}
